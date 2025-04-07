@@ -1,23 +1,11 @@
-/* estilos_web.css actualizado solo para responsividad */
 
-* {
-    font-family: monserrat;
-  }
-  
-  body {
-    background-color: #D3D3D3;
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
   }
   
   .header {
     transition: background-color 1s ease !important;
-  }
-    
-  .bg-blue-light {
-    background-color: #D3D3D3;
-  }
-  
-  .bg-blue-marin {
-    background-color: #D3D3D3;
   }
   
   .text-menu {
@@ -33,8 +21,7 @@
     z-index: 100;
   }
 
-  
-.carousel-inner {
+  .carousel-inner {
     max-height: 500px;
   }
   .imagen-carrusel {
@@ -44,59 +31,16 @@
     width: 100%;
 }
 
-
+.separador {
+    width: 80%;
+    height: 2px;
+    background-color: #D4AF37; /* o blanco si tu fondo es oscuro */
+    opacity: 0.3;
+  }
+  
   .footer {
     position: relative;
     bottom: 0;
     height: 80px;
   }
-  
-  /* Media Queries para hacerlo responsivo */
-  
-/*   @media (max-width: 1024px) {
-    .title {
-      font-size: 1.5rem;
-      text-align: center;
-    }
-  
-    .carousel-inner .d-flex {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .carousel-inner .gallery-item {
-      width: 100%;
-      padding: 0.5rem 0;
-    }
-  
-    .header .row {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .header .col-2,
-    .header .col-6,
-    .header .col-4 {
-      width: 100%;
-      text-align: center;
-      justify-content: center !important;
-    }
-  
-    .navbar-nav {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .navbar-collapse {
-      justify-content: center !important;
-    }
-  }
-  
-  @media (max-width: 576px) {
-
-    .footer {
-      height: auto;
-      padding: 10px 0;
-    }
-  } */
-  
+ 
