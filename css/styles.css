@@ -1,0 +1,45 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+#headerRaffle { background-color: transparent !important; }
+
+.header .logo img {
+    max-height: 50px;
+    margin-right: 6px;
+}
+.normal-header{
+    position: relative;
+    width: 100%;
+    background-color: transparent !important;
+}
+
+.custom-thumbnail {
+    /* width:  200px !important; Puedes ajustar el ancho según tus necesidades */
+    width:  500px !important;
+    /* height: 200px !important; Puedes ajustar la altura según tus necesidades */
+    object-fit: cover !important; /* Esto asegurará que las imágenes mantengan su proporción */
+    background-color: red;
+}
+
+.fixed-top{
+
+    background-color: red !important;
+}
+/* Oculto por defecto */
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}

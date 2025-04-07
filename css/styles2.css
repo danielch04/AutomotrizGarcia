@@ -1,0 +1,46 @@
+
+*{font-family: monserr;}
+
+body{ background-color: #0d1b26; }
+/* 
+.header .logo img {
+    max-height: 50px;
+    margin-right: 6px;
+}
+ */
+.header { transition: background-color 1s ease !important;  }
+
+.bg-blue-light{ background-color: #0d1b26 ; }
+.bg-blue-marin{ background-color: #D3D3D3  ; }
+
+.text-menu{
+    color:#D4AF37;
+}
+
+.carousel-inner {
+    max-height: 500px; /* Limita la altura del contenedor */
+}
+
+.carousel-inner img {
+    max-height: 500px; /* Limita la altura de las imágenes */
+    width: 100%; /* Asegura que las imágenes ocupen el ancho completo */
+    border-radius: 20px;
+    object-fit: cover; /* Recorta las imágenes para que se ajusten sin deformarse */
+}
+/* Oculto por defecto */
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    height: 80px;
+}
