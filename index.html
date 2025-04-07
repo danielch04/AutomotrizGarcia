@@ -11,44 +11,14 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Fonts: Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 	<link href="css/estilos_web.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
 
 <div class="container-fluid m-0">
-<!--     <div id="headerRaffle" class="header container-fluid fixed-top" style="height: 100px;" >
-
-    <div class="row d-flex justify-content-between align-items-center p-3">
-            <div class="col-sm-2">
-                <a class="" href="index.html"><img class ="img-fluid auto logo" src="img/img6.png" alt="logo cerrajeria" ></a> 
-            </div>
-            <div class="col-sm-6 d-lg-none d-xl-block d-flex justify-content-start">
-                <h1 class="text-center text-menu  ">Cerrajeria Automotriz Garcia </h1>
-            </div>    
-            <div class="col-4 ">
-                <div class="row d-flexr p-3">
-                    <div class="col-10 d-flex justify-content-end align-items-center">
-
-                        <nav class="navbar navbar-expand-lg" >
-                            <div class="collapse navbar-collapse " id="navbarNav">
-                                <ul class="nav navbar-nav ">
-                                    <li class="nav-item ">       <a class="nav-link text-menu fs-3 " href="#gallery"     data-name="gallery"    data-content="Precios" >Galerìa</a></li>      
-                                    <li class="nav-item ">       <a class="nav-link text-menu fs-3 " href="#aboutUs"  data-name="aboutUs"    data-content="Inicio" >Acerca</a></li>
-                                    <li class="nav-item ">       <a class="nav-link text-menu fs-3 " href="#contact"  data-name="contact"    data-content="contacto" >Contacto</a></li>
-                                </ul>
-                            </div>
-                        </nav>                            
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <button class="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"> <i class="mobile-nav-toggle d-lg-none bi bi-list"></i></span>
-        </button>      
-    </div> -->
-    <!-- Boton para ir al Inicio -->
 
     <div id="headerRaffle" class="container-fluid fixed-top bg-dark">
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -67,7 +37,7 @@
       
             <!-- Título (visible solo en pantallas grandes) -->
             <div class="d-none d-lg-block">
-              <h1 class="text-center text-menu  m-0">Cerrajería Automotriz Garcia</h1>
+              <h1 class="text-center text-menu m-0">Cerrajería Automotriz Garcia</h1>
             </div>
       
             <!-- Menú de navegación -->
@@ -96,12 +66,11 @@
         </span>
     </div>
 
-<!-- Título solo para móvil, debajo del header -->
-    <div class="d-block d-lg-none mt-5 pt-5 text-center mb-0 pb-0">
-        <h1 class="text-menu mt-5">Cerrajería Automotriz Garcia</h1>
-    </div>
-
-	<div id="gallery" class="mt-5 pt-5 bg-blue-light" >
+	<div id="gallery" class="mt-5 px-5 bg-white" >
+        <div class="d-block d-lg-none mt-5 pt-5 text-center mb-0 pb-0">
+            <h1 class="text-menu">Cerrajería Automotriz Garcia</h1>
+        </div>
+        <div class="separador mx-auto my-5"></div>
         <div class="container-fluid mb-3 mt-5">
                 <!-- Carousel -->
                 <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -152,9 +121,10 @@
         </div>                
 	</div>
 
-	<div id="aboutUs" class="mt-5 pt-5 bg-blue-light"> <!-- height: 500px;  -->
+	<div id="aboutUs" class="mt-5 pt-5 bg-white">
+        <div class="separador mx-auto my-5"></div>
         <div class="row mt-3 mx-3 p-5">
-            <div class="col-12 text-center text-dark mb-3"> <!-- style="color:#efb810;" -->
+            <div class="col-12 text-center text-dark mb-3">
                 <span class="fs-3 " >
                     Contando con mas de 20 años de experiencia siendo tu cerrajero de confianza. 
                         Realizando el duplicado de las llaves de tu hogar. 
@@ -187,7 +157,8 @@
         </div>
     </div>       
 
-	<div id="contact" class="mt-5 pt-5 bg-blue-light" >
+	<div id="contact" class="mt-5 px-5 bg- white" >
+        <div class="separador mx-auto my-5"></div>
 		<div class="row py-3 px-5">
             <div class="col-12">
                 <h1 class="text-uppercase text-menu" >Contactanos</h1>
@@ -255,13 +226,9 @@
     </div>
 </div>
     
-
-
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="fslightbox/fslightbox.js"></script>
-    <!-- <script src="app/arethafw/js/aretha.js"></script> -->
     
     <script>
 
@@ -294,7 +261,6 @@
       });
     });
   });
-</script>
-
+    </script>
 </body>
 </html>
