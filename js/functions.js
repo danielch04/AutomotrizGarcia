@@ -28,4 +28,3 @@ $('#scrollTopBtn').click(function() {
       });
     });
   });
-  si te envió un link de una pagina puedes revisarlo y darme opiniones?
