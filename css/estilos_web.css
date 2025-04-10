@@ -44,3 +44,6 @@ body {
     height: 80px;
   }
  
+  .listAbout{
+    list-style-type: none;
+  }
